@@ -242,3 +242,4 @@ test("submit with wrong credentials", async () => {
   expect(errorMessage).toBeInTheDocument();
 })
 //login comment
+//comment on branch 2
