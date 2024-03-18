@@ -241,6 +241,3 @@ test("submit with wrong credentials", async () => {
   const errorMessage = await screen.findByText("This email is not registered or Invalid Password")
   expect(errorMessage).toBeInTheDocument();
 })
-//login comment
-//comment on branch 2
-//comment on change3 branch
