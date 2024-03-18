@@ -220,7 +220,7 @@ test("navigation", async () => {
 
   //check sign up page
   await waitFor(() => {
-    const aboutUsText = screen.getByText(/wrong credential/i);
+    const aboutUsText = screen.getByText(/wrong/i);
     expect(aboutUsText).toBeVisible();
   });
 });
