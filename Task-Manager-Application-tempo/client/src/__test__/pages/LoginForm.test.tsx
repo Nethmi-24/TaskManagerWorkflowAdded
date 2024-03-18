@@ -220,7 +220,7 @@ test("navigation", async () => {
 
   //check sign up page
   await waitFor(() => {
-    const aboutUsText = screen.getByText(/Wrong Credential/i);
+    const aboutUsText = screen.getByText(/Already Have an Account/i);
     expect(aboutUsText).toBeVisible();
   });
 });
@@ -244,3 +244,4 @@ test("submit with wrong credentials", async () => {
 //login comment
 //comment on branch 2
 //comment on change3 branch
+//test with ashani
