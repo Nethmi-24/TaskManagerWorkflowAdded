@@ -242,3 +242,4 @@ test("submit with wrong credentials", async () => {
   expect(errorMessage).toBeInTheDocument();
 })
 //login comment
+//test cases are passed
