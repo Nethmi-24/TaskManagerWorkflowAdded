@@ -220,7 +220,7 @@ test("navigation", async () => {
 
   //check sign up page
   await waitFor(() => {
-    const aboutUsText = screen.getByText(/Already Have an Account/i);
+    const aboutUsText = screen.getByText(/wrong/i);
     expect(aboutUsText).toBeVisible();
   });
 });
@@ -241,6 +241,5 @@ test("submit with wrong credentials", async () => {
   const errorMessage = await screen.findByText("This email is not registered or Invalid Password")
   expect(errorMessage).toBeInTheDocument();
 })
-//login comment
-//comment on branch 2
-//comment on change3 branch
+
+//comment on change 5 branch
